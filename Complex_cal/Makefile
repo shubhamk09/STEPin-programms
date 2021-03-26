@@ -9,5 +9,6 @@ $(PROJECT_NAME):$(SRC)
 run:$(PROJECT_NAME)
 	$(PROJECT_NAME)
 
+# clean the exe file
 clean: 
 	del /q *.exe
