@@ -1,11 +1,9 @@
 #include "complex.h"
 
-complex_t diff(complex_t num1, complex_t num2){
+void diff(complex_t* cnum1, complex_t* cnum2, complex_t* cnum3){
 
-    complex_t num3;
 
-    num3.real=num1.real-num2.real;
-    num3.imaginary=num1.imaginary-num2.imaginary;
-    return num3;
+    cnum3->real=cnum1->real-cnum2->real;
+    cnum3->imaginary=cnum1->imaginary-cnum2->imaginary;
     
-} 
+}
